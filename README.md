@@ -9,7 +9,7 @@ A collection of modern, responsive cards created with pure HTML and CSS.
 - Fully responsive layout
 
 ## 📸 Preview
-Add `preview.png` here (screenshot of both cards).
+![Card Preview](preview.png)
 
 ## 🎯 Use Cases
 Perfect for blogs, portfolios, product showcases, or dashboards.
