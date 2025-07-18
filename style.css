@@ -1,0 +1,67 @@
+/* ---------- Global styles ---------- */
+body {
+  background: #f0f0f0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 30px;
+  margin: 0;
+}
+
+h1 {
+  color: #333;
+}
+
+/* ---------- Card container ---------- */
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+/* ---------- Card ---------- */
+.card {
+  background: #fff;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card h2 {
+  margin: 15px 0 5px;
+  color: #222;
+}
+
+.card p {
+  padding: 0 15px;
+  color: #555;
+  font-size: 14px;
+}
+
+/* ---------- Read More button (anchor) ---------- */
+.read-more-btn {
+  display: inline-block;
+  margin: 15px;
+  padding: 10px 20px;
+  background: #0ff;
+  color: #000;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.read-more-btn:hover {
+  background: #00c2c2;
+}
